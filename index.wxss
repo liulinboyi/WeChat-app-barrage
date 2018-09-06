@@ -1,0 +1,68 @@
+/**index.wxss**/
+page{
+  background-image: linear-gradient(to right, #ff2345 0%, #ff663f 100%);
+}
+.button {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.aon {
+  position: absolute;
+  white-space: nowrap; /* 防止向下换行*/
+  animation-timing-function: linear;
+  animation-fill-mode: none;
+}
+
+.avatarUrl {
+  position: relative;
+  top: 20rpx;
+  right: 20rpx;
+  height: 55rpx;
+  width: 55rpx;
+  border-radius: 50%;
+  border:3.5rpx solid #b81c22;
+}
+
+.avatarUrl1 {
+  position: relative;
+  top: 20rpx;
+  right: 20rpx;
+  height: 60rpx;
+  width: 60rpx;
+}
+
+.doommview {
+  z-index: 3;
+  height: 70%;
+  width: 100%;
+  position: absolute;
+}
+
+@keyframes first {
+  from {
+    left: 100%;
+  }
+
+  to {
+    left: -500%;
+  }
+}
+
+.placeholder {
+  margin: 10px;
+  padding: 0 10px;
+  text-align: center;
+  background-color: #ebebeb;
+  height: 40prx;
+  line-height: 40prx;
+  color: #b81c22;
+}
+
+.btn {
+  height: 40prx;
+  line-height: 40prx;
+  margin: 10px;
+  padding: 0 10px;
+}
