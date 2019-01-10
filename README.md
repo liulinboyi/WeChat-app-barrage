@@ -1,1 +1,1 @@
-# WeChat-app-barrage
+# 微信小程序——类弹幕祝福
