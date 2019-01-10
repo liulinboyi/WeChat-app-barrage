@@ -3,7 +3,7 @@
 var QQMapWX = require('../../utils/qqmap-wx-jssdk.js');
 // 实例化API核心类
 var demo = new QQMapWX({
-  key: 'CZZBZ-QBRW4-7CRUY-D4RFH-TIPQ7-K7B6J' // 必填
+  key: '' // 必填
 });
 const db = wx.cloud.database()
 const _ = db.command
